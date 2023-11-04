@@ -1,4 +1,4 @@
-document.getElementById('financeForm').addEventListener('submit', function(e) {
+document.getElementById('financeForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
     const tipo = document.getElementById('tipo').value;
