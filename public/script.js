@@ -1,3 +1,5 @@
+// JS
+
 document.getElementById('financeForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
