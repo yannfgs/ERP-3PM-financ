@@ -1,9 +1,9 @@
 // JS
 
-
 document.getElementById("financeForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
+  
   const tipo = document.getElementById("tipo").value;
   const categoria = document.getElementById("categoria").value;
   const descricao = document.getElementById("descricao").value;
